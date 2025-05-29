@@ -68,7 +68,7 @@ yem.goto(0,100)
 
 
 def ye():
-    yn.distance(yem)<20:
+    if yn.distance(yem)<20:
      x=random.randint(-280,280)
      y=random.randint(-280,280)
      yem.goto(x,y)
@@ -83,13 +83,13 @@ def ye():
      skor+=5
      if skor>maxSkor:
          maxSkor=skor
-         w.title("Skor:{}  en yüksek skor: {}".format(spor.maxSkor)) 
+         w.title("Skor:{}  en yüksek skor: {}".format(skor,maxSkor)) 
    uzunluk=len(Liste)
-   for indis in range(uzunluk-1,0,-1)
+   for indis in range(uzunluk-1,0,-1):
        x=Liste[indis-1].xcor()
        y=Liste[indis-1].ycor()
        Liste[indis].goto(x,y)
-    if len(Liste)>0
+    if len(Liste)>0:
         x=yn.xcor()
         y=yn.ycor()
         Liste[0].goto(x,y)
