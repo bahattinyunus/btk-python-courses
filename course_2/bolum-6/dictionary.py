@@ -1,4 +1,5 @@
-# sehirler = ['kocaeli','istanbul']
+#dictionary kullanmadan sözlük yapısı
+# sehirler = ['kocaeli','istanbul']   
 # plakalar = [41,34]
 
 # # key - value
@@ -8,7 +9,6 @@
 # print(plakalar[sehirler.index('istanbul')])
 # print(plakalar[sehirler.index('kocaeli')])
 
-# dictionary
 
 plakalar = { 
     'kocaeli': 41, 
