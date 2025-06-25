@@ -15,3 +15,8 @@ print(c ** 3)
 # 6- a, b, *c = (2,4,6,8,13) işlemine göre c' nin değerleri toplamı nedir?
 a, b, *c = (2,4,6,8,13)  #c=6,8,13
 print(c[0] + c[1] + c[2])
+
+
+
+a//b #kalan kısmını görmezden gelir
+a**b #a üssü b
