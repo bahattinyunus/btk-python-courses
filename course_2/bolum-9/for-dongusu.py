@@ -1,4 +1,4 @@
-# for => list
+# for => lis    t
 # while => koşullu
 
 sayilar = [1,2,3,4,6,8,91,21]

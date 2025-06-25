@@ -23,10 +23,7 @@ ogrenciler = {
         "Notlar": (70,70,70)
     }
 }
-
-# Klavyeden girilen öğrenci numarasına göre aşağıdaki cümleyi yazdırınız.
-    # 101 numaralı Yiğit Bilgi ismindeki öğrencinin yaşı 14 ve not ortalaması 70.
-
+ 
 ogrenciNo = int(input('öğrenci no: '))
 ogrenci = ogrenciler[ogrenciNo]
 ortalama = (ogrenci["Notlar"][0] + ogrenci["Notlar"][1] + ogrenci["Notlar"][2]) / 3

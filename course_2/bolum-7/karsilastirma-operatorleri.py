@@ -19,3 +19,9 @@ sonuc = (False == 0)
 sonuc = int(True)
 
 print(sonuc)
+
+
+a = 1
+b = 2
+sonuc=a**b   #a üssü b
+sonuc=a//b  #kalanı görmezden gelir

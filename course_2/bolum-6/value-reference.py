@@ -1,17 +1,11 @@
-# value types
-# x = 10
-# y = 20
-# x = y
-# y = 30
-# print(x, y)
 
-# reference
+
 
 a = ["elma","armut"]
 b = ["elma","armut"]
 
 a = b   # adres kopyaladınız.
-a[0] = "üzüm"
+a[0] = "üzüm"   #birinde yapılan değişiklik diğerinide etkiler çünkü a ve b aynı adresi tutuyor
 print(a, b)
 
 # liste koplayama
