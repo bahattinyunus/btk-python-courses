@@ -1,5 +1,3 @@
-# Dictionary Metotları
-
 yemekTarifi = {
     "yemekAdi": "Musakka",
     "yemekTarifi": "tarif açıklaması",
@@ -8,10 +6,13 @@ yemekTarifi = {
 
 # access items
 sonuc = yemekTarifi["yemekAdi"]
-sonuc = yemekTarifi.get("yemekAdi")
-sonuc = yemekTarifi.keys()
-sonuc = yemekTarifi.values()
-sonuc = yemekTarifi.items()
+sonuc = yemekTarifi.get("yemekAdi")   
+sonuc = yemekTarifi.keys()    #dict_keys(['yemekAdi', 'yemekTarifi', 'resim']) 
+
+sonuc = yemekTarifi.values()  #dict_values(['Musakka', 'tarif a��klamas�', '1.jpg'])
+
+sonuc = yemekTarifi.items()  
+print(sonuc)
 
 # update items
 # yemekTarifi["yemekAdi"] = "Mantı"
@@ -19,8 +20,8 @@ sonuc = yemekTarifi.items()
 # yemekTarifi.update({"yemekAdi2":"Mantı"})
 
 # delete items
-# yemekTarifi.pop("yemekAdi")
-# yemekTarifi.popitem()
+# yemekTarifi.pop("yemekAdi")    
+# yemekTarifi.popitem()   #son eklenen elemanı siler
 yemekTarifi.clear()
 
 # copy => referans
