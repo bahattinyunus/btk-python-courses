@@ -5,7 +5,7 @@
 #     print(f"{index}-{marka}")
 #     index += 1
 
-# obj1 = enumerate(markalar,1)
+# obj1 = enumerate(markalar,1)   #yukarıdakini otamatik yapıyor
 
 # print(type(obj1))
 # print(list(obj1))

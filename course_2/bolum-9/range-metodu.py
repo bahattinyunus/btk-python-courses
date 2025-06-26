@@ -7,7 +7,7 @@ rng = range(10,20)
 rng = range(100,200,10)
 rng = range(0,-20,-1)
 
-sonuc = list(rng)
+sonuc = list(rng)   #range methodu bir lister oluşturuyor olsa bile list methodunun içine almak gerekiyor
 print(sonuc)
 
 for i in range(50,250):

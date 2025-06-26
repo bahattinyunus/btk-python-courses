@@ -1,7 +1,4 @@
-def toplam():
-    return 10+20
 
-sonuc = toplam()
 
 def yil():
     import datetime
@@ -11,10 +8,7 @@ def saat():
     import datetime
     return datetime.datetime.now().hour
 
-def yasHesapla():
-    return yil() - 1983
 
-print(yasHesapla())
 
 def selamlama():
     if(saat() < 12):
@@ -22,4 +16,3 @@ def selamlama():
     else:
         return "Merhaba"
     
-print(selamlama())

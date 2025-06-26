@@ -1,42 +1,23 @@
-# 1- Başlangıç ve bitiş değerlerini kullanıcıdan alınız ve bu değerler arasındaki tüm çift sayıları yazdırınız.
+i = 0
+sayilar = []
 
-# baslangic = int(input("başlangıç: "))
-# bitis = int(input("bitiş: "))
+while (i < 5):
+    sayi = int(input("sayı: "))
+    sayilar.append(sayi)
+    i += 1
 
-# i = baslangic
+sayilar.sort()
 
-# while(i < bitis):
-#     if (i % 2 == 0):
-#         print(i)
-#     i += 1
-    
+print(sayilar)
 
-# 2- (1-100) arasındaki sayıları azalan şekilde yazdırınız.
-    
-# i = 100
-# while (i > 0):
-#     print(i)
-#     i -= 1
-
-# 3- Kullanıcıdan alacağınız 5 sayıyı ekranda sıralı bir şekilde yazdırın.
-# i = 0
-# sayilar = []
-
-# while (i < 5):
-#     sayi = int(input("sayı: "))
-#     sayilar.append(sayi)
-#     i += 1
-
-# sayilar.sort()
-
-# print(sayilar)
-
-# 4- Klavyeden girişi istenen username bilgisi için boşluk girildiği sürece tekrar username girişi isteyiniz.
+# Klavyeden girişi istenen username bilgisi için boşluk girildiği sürece tekrar username girişi 
 
 username = ""
 
+print(bool(username))   #fulse
+
 while not username:
-    username = input("kullanıcı adı: ")
+    username = input("kullanıcı adı: ")    #username dolana kadar fulse döner dolunca döngü kırıllır
 
 print("girilen username: " + username)
 
