@@ -1,22 +1,11 @@
-# 1- Kendisine gönderilen bir kelimeyi belirtilen kez ekranda gösteren fonksiyonu yazınız. 
-
+# Kendisine gönderilen bir kelimeyi belirtilen kez ekranda gösteren fonksiyonu yaz 
 def yazdir(text, adet):
     return text * adet
 
 # print(yazdir("Merhaba ", 5))
 
-# 2- Dikdörgenin alan ve çevresini hesaplayan fonksiyonu yazınız.
 
-def hesapla(kisa, uzun):
-    alan = kisa * uzun
-    cevre = 2 * (kisa + uzun)
 
-    return f"alan: {alan} çevre: {cevre}"
-
-sonuc = hesapla(3,5)
-sonuc = hesapla(4,5)
-
-# 3- Yazı tura uygulamasını fonksiyon kullanarak yapınız. (Random modülü)
 def yaziTura():
     import random
     sayi = random.random()
@@ -28,7 +17,7 @@ def yaziTura():
     
 sonuc = yaziTura()
 
-# 4- Kendisine gönderilen 2 sayı arasındaki tüm asal sayıları bulan fonksiyonu yazınız.
+
 
 def asalSayilariBul(sayi1, sayi2):
     for sayi in range(sayi1, sayi2+1):
@@ -41,7 +30,7 @@ def asalSayilariBul(sayi1, sayi2):
 
 asalSayilariBul(10,30)
 
-# 5- Kendisine gönderilen bir sayının tam bölenlerini bir liste şeklinde döndüren fonksiyonu yazınız.
+
 
 def tamBolenleriBul(sayi):
     tamBolenler = []
