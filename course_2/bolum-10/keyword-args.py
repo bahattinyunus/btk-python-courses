@@ -1,4 +1,4 @@
-def full_name(firstname: str, lastname: str, age: int) -> str:
+def full_name(firstname: str, lastname: str, age: int) -> str:  #dönüş değeri de str
     return f"Your name is {firstname} {lastname}"
 
 sonuc = full_name("Sadık","Turan")
