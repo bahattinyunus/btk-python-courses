@@ -8,4 +8,4 @@ with open("dosya.txt","w",encoding="utf-8") as file:
 
 with open("dosya.txt","r",encoding="utf-8") as file:
     for i in file:
-        print(i, end="")
+        print(i)
