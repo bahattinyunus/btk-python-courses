@@ -1,36 +1,29 @@
-# Bankamatik Uygulaması
-
-# Hesap bilgileri tutulacak. (dict)
-# menu, paraCekme, bakiyeSorgula, paraYatirma fonksiyonları tanımlanacak.
-# çekilmek istenen tutar hesapta yoksa ek hesabın kullanılmak istendiği sorulacak.
-
 hesaplar = [
     {
-        "ad":"Sadık Turan",
+        "ad": "Bahattin Yunus Çetin",
         "hesapNo": "12345",
         "bakiye": 20000,
         "ekHesap": 5000,
-        "username":"sadikturan",
-        "password":"1234"
+        "username": "bahattinyunus",
+        "password": "1234"
     },
     {
-        "ad":"Efe Turan",
+        "ad": "Efe Turan",
         "hesapNo": "12345",
         "bakiye": 30000,
         "ekHesap": 10000,
-        "username":"efeturan",
-        "password":"1234"
+        "username": "efeturan",
+        "password": "1234"
     }
 ]
 
 def menu(hesap):
     print("\n")
-
-    print(f"merhaba, {hesap["ad"]}")
-
+    print(f"Merhaba, {hesap['ad']}")
     print("1- Bakiye Sorgulama")
     print("2- Para Çekme")
     print("3- Para Yatırma")
+    print("4- Çıkış")
 
     islem = input("Yapmak istediğiniz işlem: ")
 
@@ -40,53 +33,53 @@ def menu(hesap):
         paraCekme(hesap)
     elif islem == "3":
         paraYatirma(hesap)
+    elif islem == "4":
+        print("Çıkış yapılıyor.")
+        return
     else:
-        print("yanlış seçim")
+        print("Yanlış seçim")
 
     menu(hesap)
 
 def paraYatirma(hesap):
-    pass
+    miktar = float(input("Yatırmak istediğiniz miktar: "))
+    hesap["bakiye"] += miktar
+    print(f"İşlem yapıldı, yeni bakiyeniz: {hesap['bakiye']}")
 
 def bakiyeSorgula(hesap):
-    print(f"bakiye: {hesap["bakiye"]}")
-    print(f"ek bakiye: {hesap["ekHesap"]}")
+    print(f"Bakiye: {hesap['bakiye']}")
+    print(f"Ek bakiye: {hesap['ekHesap']}")
 
 def paraCekme(hesap):
-    miktar = float(input("çekmek istediğiniz miktar: "))
+    miktar = float(input("Çekmek istediğiniz miktar: "))
 
     if hesap["bakiye"] >= miktar:
         hesap["bakiye"] -= miktar
-        print("paranızı alabilirsiniz.")
+        print("Paranızı alabilirsiniz.")
     else:
         toplam = hesap["bakiye"] + hesap["ekHesap"]
-
         if toplam >= miktar:
-            ekHesapKullanimIzmi = input("ek hesap kullanılsın mı? (e/h): ")
-
-            if ekHesapKullanimIzmi == "e":
-                kullanilacakMiktar = miktar - hesap["bakiye"]
+            ekHesapKullan = input("Ek hesap kullanılsın mı? (e/h): ")
+            if ekHesapKullan.lower() == "e":
+                kullanilacak = miktar - hesap["bakiye"]
                 hesap["bakiye"] = 0
-                hesap["ekHesap"] -= kullanilacakMiktar
-                print("paranızı alabilirsiniz")
+                hesap["ekHesap"] -= kullanilacak
+                print("Paranızı alabilirsiniz.")
             else:
-                print("üzgünüz bakiyeniz yetersiz")
+                print("Üzgünüz, bakiyeniz yetersiz.")
         else:
-                print("üzgünüz bakiyeniz yetersiz")
+            print("Üzgünüz, bakiyeniz yetersiz.")
 
 def login():
-    username = input("username: ")
-    password = input("parola: ")
-
-    isLoggedIn = False
+    username = input("Username: ")
+    password = input("Parola: ")
 
     for hesap in hesaplar:
         if hesap["username"] == username and hesap["password"] == password:
-            isLoggedIn = True
+            print("Giriş başarılı.")
             menu(hesap)
-            break
+            return
 
-    if not(isLoggedIn):
-        print("username yada parola yanlış")
+    print("Username ya da parola yanlış.")
 
 login()
