@@ -17,11 +17,13 @@
     # 0 -39  -> FF
 
 def not_hesapla(satir):
-    satir = satir[:-1]
-    liste = satir.split(":")
+    satir = satir[:-1]  #satırın sonundai \n i temizler
+    liste = satir.split(":")  # "Ad Soyad:Not1,Not2,Not3" formatını ayırır.
+
 
     ogrenciAdi = liste[0]
-    notlar = liste[1].split(",")
+    notlar = liste[1].split(",")  # "Not1,Not2,Not3" kısmını ayırır
+
 
     not1 = int(notlar[0])
     not2 = int(notlar[1])
