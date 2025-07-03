@@ -1,9 +1,9 @@
 # Class
 class Product:
     # method
-    # attribute, property 
+    # attribute, property = Fonksiyonları değişken gibi kullanmamızı sağlayan özel yapı
     def __init__(self, name, price, isActive):
-        self.name = name
+        self.name = name      #	Sınıfın kendisini temsil eder (p1, p2 gibi nesneler)
         self.price = price
         self.isActive = isActive
 
