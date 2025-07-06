@@ -6,9 +6,9 @@ def display_user(**kwargs):
         print(f"{key}: {value}")
     print("\n")
 
-display_user(username="sadikturan")
-display_user(username="sadikturan",email="info@sadikturan.com")
-display_user(username="sadikturan",email="info@sadikturan.com", country = "Türkiye")   # değiken sayıda parametre alabiliyor
+display_user(username="bahattinyunus")
+display_user(username="bahattinyunus",email="bahattinyunuscetin@hotmail.com")
+display_user(username="bahattinyunus",email="bahattinyunuscetin@hotmail.com", country = "Türkiye")   # değiken sayıda parametre alabiliyor
                  #liste   #dictionary
 def myFunc(a,b,c,*args,  **kwargs):    #dictionary veri yapısı oluyor ** çift yıldız kullanınca
     print(a)

@@ -12,4 +12,4 @@ while True:
     else:
         break
     finally:
-        print("finally bloğu çalıştı.")
+        print("finally bloğu çalıştı.")  #her halukarda çalışır
