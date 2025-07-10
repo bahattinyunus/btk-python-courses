@@ -1,15 +1,8 @@
-# print(10 / 0)
-
-# x = 10
-
-# if x > 5:
-#     raise ValueError("x 5 den büyük olamaz.")
-
 def renklendir(text, renk):
     renkler = ("blue","red","white","black","orange")
 
     if type(text) is not str:
-        raise TypeError("text str tipinde olmalıdır.")
+        raise TypeError("text str tipinde olmalıdır.")   
     
     if type(renk) is not str:
         raise TypeError("renk str tipinde olmalıdır.")
