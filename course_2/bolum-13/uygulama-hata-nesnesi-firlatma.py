@@ -17,12 +17,10 @@ def faktoriyel(x):
 #     try:
 #         x = faktoriyel(i)
 #     except ValueError as e:
-#         print(e)
+#         print(e)s
 #         continue
 #     else:
 #         print(x)
-
-# 2- Girilen parola içinde türkçe karakter hatası veriniz.
 
 def parolaKontrol(parola):
     turkce_karakterler = "şçğüöıİ"
@@ -36,6 +34,8 @@ def parolaKontrol(parola):
 parola = input("parola: ")
 
 try:
+
+
     parolaKontrol(parola)
 except TypeError as e:
     print(e)
