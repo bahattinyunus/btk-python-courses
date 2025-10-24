@@ -1,3 +1,2 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-3_sıfırdan[[:space:]]ileri_btk_45hours/src/18-Pandas/datasets/youtube-ing.csv filter=lfs diff=lfs merge=lfs -text

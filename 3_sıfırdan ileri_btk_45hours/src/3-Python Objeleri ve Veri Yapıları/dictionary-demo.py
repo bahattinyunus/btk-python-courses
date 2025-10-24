@@ -30,13 +30,13 @@ name = input("öğrenci adı: ")
 surname = input("öğrenci soyad: ")
 phone = input("öğrenci telefon: ")
 
-# ogrenciler[number] = {
+# ogrenciler[number] = {      # bu şekilde de yapılabilir.
 #     'ad': name,
 #     'soyad': surname,
 #     'telefon': phone
 # }
 
-ogrenciler.update({
+ogrenciler.update({          # bu şekilde de yapılabilir. update methodu ile dictionary içine yeni bir eleman ekler.
     number: {
         'ad': name,
         'soyad': surname,

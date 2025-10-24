@@ -12,10 +12,10 @@ y = 10
 a = ["apple","banana"]
 b = ["apple","banana"]
 
-a = b
+a = b # a ve b aynı listeye işaret eder.
 
-b[0] = "grape"
+b[0] = "grape" # b listesindeki 0. indeksi "grape" yapar. a listesinde de değişir.
 
-print(a, b)
+print(a, b) # a ve b aynı listeye işaret eder.
 
 

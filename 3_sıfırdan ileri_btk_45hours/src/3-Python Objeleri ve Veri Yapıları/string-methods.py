@@ -7,10 +7,10 @@ message = message.split()
 # message = message.title()
 # message = message.capitalize()
 
-# message = message.strip()
-# message = message.split()
-# message = message.split('.')
-# message= '---'.join(message)
+# message = message.strip() # baştaki ve sondaki boşlukları siler
+# message = message.split() # boşlukları ayırarak liste yapar
+# message = message.split('.') # noktaları ayırarak liste yapar
+# message= '---'.join(message) # listeyi birleştirir ve --- ile birleştirir
 
 # index = message.find('Sadık')
 # isFound = message.startswith('H') 

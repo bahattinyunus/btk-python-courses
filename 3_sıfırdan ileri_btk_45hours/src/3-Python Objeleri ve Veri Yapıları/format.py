@@ -9,7 +9,7 @@ age = 36
 # print("My name is {} {} and I'm {} years old.".format(name, name, name))
 
 # result = 200 / 700
-# print('the result is {r:1.4}'.format(r=result))
+# print('the result is {r:1.4}'.format(r=result)) # 1.4 virgülden sonra 4 basamak yazdırır 
 
-print(f"My name is {name} {surname} and I'm {age} years old.")
+print(f"My name is {name} {surname} and I'm {age} years old.") # python a yen gelen method
 
