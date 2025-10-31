@@ -20,5 +20,5 @@ for a,b in tuple:
 
 d = {'k1':1, 'k2':2, 'k3':3}
 
-for key,value in d.items():
+for key,value in d.items():  #dictinary de elemaları komple almak için .items kulanılır yoksa sadedce key bilgiliri gelir
     print(key, value)
