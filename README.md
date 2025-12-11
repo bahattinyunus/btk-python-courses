@@ -1,51 +1,105 @@
+<div align="center">
+
+![BTK Python Course Projects Banner](assets/banner.png)
+
 # 🐍 BTK Akademi - Python Eğitim Projeleri
 
-Bu GitHub reposu, [BTK Akademi](https://www.btkakademi.gov.tr/) üzerinden tamamladığım **Python ile Programlamaya Giriş** ve **Python** eğitimlerinde öğrendiğim konuları uygulamalı olarak pekiştirmek amacıyla geliştirdiğim projeleri içermektedir. 🎯  
-Eğitim boyunca hem temel hem ileri seviye konuları içeren çeşitli örnekler ve mini projelerle Python becerilerimi güçlendirdim.
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![BTK Akademi](https://img.shields.io/badge/BTK_Akademi-Certified-red?style=for-the-badge)](https://www.btkakademi.gov.tr/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?style=for-the-badge)](https://github.com/bahattinyunus/btk-python-course-projects/graphs/commit-activity)
+
+*Bu depo, BTK Akademi eğitim serüvenimin kodlara dökülmüş halidir.*
+
+[Projeleri Keşfet](#-içerik) • [Nasıl Kullanılır?](#-kurulum) • [İletişim](#-iletişim)
+
+</div>
+
+---
+
+## 🌟 Proje Hakkında
+
+Bu GitHub deposu, **[BTK Akademi](https://www.btkakademi.gov.tr/)** platformunda tamamladığım **"Python ile Programlamaya Giriş"** ve ileri seviye **"Python"** eğitimleri boyunca geliştirdiğim kodları, mini projeleri ve notları içermektedir. 
+
+Sadece bir kod arşivi değil, aynı zamanda Python öğrenme yolculuğumun bir **seyir defteridir**. 🚀
+
+### 🎯 Hedefler
+- **Temel Atma:** Python sözdizimi ve temel kavramları pekiştirmek.
+- **Pratik Yapma:** Gerçek hayat senaryolarına uygun mini projeler geliştirmek.
+- **Portföy:** Öğrenilen bilgileri somut çıktılara dönüştürerek sergilemek.
+- **Kaynak Olma:** Python öğrenmeye yeni başlayanlar için temiz ve anlaşılır örnekler sunmak.
+
+---
 
 ## 📁 İçerik
 
-- 📦 Temel Python Uygulamaları
-- 🔄 Kontrol Yapıları ve Döngüler
-- 🧮 Fonksiyonlar ve Veri Yapıları
-- 📚 Dosya İşlemleri
-- 🔎 Hata Yönetimi
-- 🧰 Modül Kullanımı
-- 🧠 Nesne Tabanlı Programlama (OOP)
-- 🌐 Web ile Python
-- 📊 Veri Görselleştirme (Matplotlib, Seaborn)
-- 🧪 NumPy ve Pandas ile Veri Analizi
-- 🕸️ API Kullanımı
+Depo içerisinde aşağıdaki başlıklar altında toplanmış örnekler ve projeler bulunmaktadır:
 
-## 🧠 Python Hakkında  Bilgi
+| Konu Başlığı | Açıklama |
+| :--- | :--- |
+| **📦 Temel Uygulamalar** | Değişkenler, Veri Tipleri, Operatörler |
+| **🔄 Kontrol Yapıları** | `if-else`, `for`, `while` döngüleri ile algoritmalar |
+| **🧮 Fonksiyonlar** | Modüler kodlama, `lambda`, `map`, `filter` kullanımı |
+| **📚 Dosya İşlemleri** | `.txt`, `.csv`, `.json` okuma ve yazma işlemleri |
+| **🔎 Hata Yönetimi** | `try-except` blokları ile güvenli kod yazımı |
+| **🧠 OOP (NTP)** | Class, Object, Inheritance, Polymorphism kavramları |
+| **📊 Veri Bilimi Giriş** | `NumPy` ve `Pandas` ile veri manipülasyonu |
+| **� Veri Görselleştirme** | `Matplotlib` ve `Seaborn` ile grafik çizimleri |
+| **🌐 Web & API** | Temel API istekleri ve Web scraping örnekleri |
 
-Python, 1991 yılında Guido van Rossum tarafından geliştirilen, açık kaynaklı, yüksek seviyeli, yorumlanabilir ve çok amaçlı bir programlama dilidir. Python’un en belirgin özelliği, okunabilirliğe ve sadeliğe verdiği önemdir. Bu nedenle genellikle "öğrenmesi en kolay programlama dili" olarak kabul edilir.
+---
 
-### 🚀 Neden Python?
+## 🚀 Neden Python?
 
-- **Basit ve Anlaşılır Sözdizimi**: İngilizceye yakın yapısı sayesinde kod okunabilirliği yüksektir.
-- **Topluluk Desteği**: Geniş ve aktif bir topluluğa sahip olması, sorunlarla karşılaştığında yardım almayı kolaylaştırır.
-- **Çok Yönlülük**: Web geliştirme, veri bilimi, yapay zeka, siber güvenlik, otomasyon, oyun geliştirme gibi birçok alanda kullanılabilir.
-- **Platform Bağımsızlığı**: Linux, Windows, macOS gibi işletim sistemlerinde sorunsuz çalışır.
-- **Zengin Kütüphane Ekosistemi**: NumPy, Pandas, TensorFlow, Flask, Django gibi güçlü kütüphanelerle her ihtiyaca çözüm sunar.
+Eğer neden Python seçtiğimi merak ediyorsanız;
 
-### 📚 Python’un Temel Özellikleri
+> *"Talk is cheap. Show me the code."* – **Linus Torvalds**
 
-- **Yorumlanabilir**: Python kodları doğrudan çalıştırılır, derlemeye gerek yoktur.
-- **Nesne Tabanlı**: OOP (Object Oriented Programming) destekler.
-- **Dinamik Tür Belirleme**: Değişkenlerin türü çalışma zamanında belirlenir.
-- **Geniş Standart Kütüphane**: Hazır modüllerle birçok işlemi kolayca yapabilirsiniz.
+Python, sadeliği ve gücü birleştiren mükemmel bir dildir. Veri biliminden web geliştirmeye, yapay zekadan otomasyona kadar sınır tanımaz bir ekosisteme sahiptir.
 
-### 👩‍💻 Python Kullanım Alanları
+### ⚡ Öne Çıkan Özellikler
+*   **Kolay Okunabilirlik:** İngilizceye yakın, temiz sözdizimi.
+*   **Devasa Topluluk:** Karşılaştığınız her hatanın bir çözümü muhtemelen forumlarda var.
+*   **Zengin Kütüphaneler:** "Bunun için bir kütüphane var mı?" sorusunun cevabı genellikle "Evet".
 
-- **Web Geliştirme**: Django, Flask gibi frameworklerle güçlü web uygulamaları geliştirmek mümkündür.
-- **Veri Bilimi**: Pandas, NumPy, Scikit-Learn, Matplotlib gibi araçlarla veri analizi ve görselleştirme yapılabilir.
-- **Yapay Zeka ve Makine Öğrenmesi**: TensorFlow, PyTorch gibi kütüphanelerle AI projeleri geliştirilebilir.
-- **Otomasyon (Scripting)**: Günlük görevleri otomatize etmek için kullanılabilir.
-- **Oyun Geliştirme**: Pygame ile 2D oyunlar yapılabilir.
+---
 
-## 🧪 Proje Amacı
-Bu repodaki projelerle amacım, Python diline olan hâkimiyetimi uygulamalarla geliştirmek, yazılım geliştirme becerilerimi artırmak ve BTK Akademi eğitimlerini somut çıktılarla tamamlamaktır. Aynı zamanda diğer Python öğrenenlere örnek olması için açık kaynaklı bir kaynak sunmaktır.
+## 🛠 Kurulum
 
+Bu projeleri kendi bilgisayarınızda çalıştırmak için:
 
-> "Talk is cheap. Show me the code." – Linus Torvalds
+1.  Repo'yu klonlayın:
+    ```bash
+    git clone https://github.com/bahattinyunus/btk-python-course-projects.git
+    ```
+2.  Proje dizinine gidin:
+    ```bash
+    cd btk-python-course-projects
+    ```
+3.  (Varsa) Gerekli kütüphaneleri yükleyin:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+---
+
+## 🤝 Katkıda Bulunma
+
+Bu proje açık kaynaklıdır ve her türlü katkıya açıktır! Hata bulursanız veya ekleme yapmak isterseniz lütfen `Pull Request` gönderin.
+
+1.  Bu repoyu **Fork** edin.
+2.  Yeni bir **Branch** oluşturun (`git checkout -b ozellik/YeniOzellik`).
+3.  Değişikliklerinizi **Commit** edin (`git commit -m 'Yeni özellik eklendi'`).
+4.  Branch'inizi **Push** edin (`git push origin ozellik/YeniOzellik`).
+5.  Bir **Pull Request** oluşturun.
+
+---
+
+<div align="center">
+
+*Bu proje [BTK Akademi](https://www.btkakademi.gov.tr/) katkılarıyla hazırlanmıştır.* ❤️
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bahattinyunus/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bahattinyunus)
+
+</div>
